@@ -6,7 +6,7 @@
 #ifdef __APPLE__
 #include "impl-apple.cc"
 #else
-#error This platform is not implemented yet
+#include "impl-other.cc"
 #endif
 
 using v8::FunctionTemplate;

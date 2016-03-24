@@ -1,21 +1,20 @@
 {
   "name": "macos-alias",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "main": "index.js",
   "license": "MIT",
   "author": "Linus Unnebäck <linus@folkdatorn.se>",
   "contributors": [
     "Linus Unnebäck <linus@folkdatorn.se>",
     "Davide Liessi <davide.liessi@gmail.com>",
-    "Joshua Warner <joshuawarner32@gmail.com>"
-  ],
-  "os": [
-    "darwin"
+    "Joshua Warner <joshuawarner32@gmail.com>",
+    "Peter Prikryl <peto.prikryl@gmail.com>"
   ],
   "devDependencies": {
     "fs-temp": "^0.1.2",
     "mocha": "^2.2.5",
-    "standard": "^4.5.4"
+    "standard": "^4.5.4",
+    "node-gyp": "^3.3.1"
   },
   "scripts": {
     "test": "mocha"
